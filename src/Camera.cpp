@@ -113,7 +113,9 @@ int Camera::getPort()
 {
 	if(cameraTcpServer_)
 	{
+
 		return cameraTcpServer_->getPort();
+
 	}
 	return 0;
 }
@@ -290,4 +292,3 @@ void Camera::updateImageRate()
 }
 
 } // namespace find_object
-
